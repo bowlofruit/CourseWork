@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BallGame.BallBehavior">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAARgAAAAAAA=</HashCode>
+      <FileName>BallBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BallGame.StaticObjectCreator">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAEAQAAAAAAAAIAAAAAAACAAAAQACBQCAAAAAAA=</HashCode>
+      <FileName>StaticObjectCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BallGame.Form1">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAACAAAAAAAADAAAACAAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BallGame.Form2">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAkBQAADAAIBAoQmCAAAgCABAAFABAQAwCAAFQQgA=</HashCode>
+      <FileName>Form2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
