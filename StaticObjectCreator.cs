@@ -50,7 +50,7 @@ namespace BallGame
         {
             for (int i = 0; i < rewards.Length; i++)
             {
-                rewards[i].Size = new Size(64, 64);
+                rewards[i].Visible = true;
             }
         }
         static public PictureBox AddReflectorUp()
@@ -104,6 +104,7 @@ namespace BallGame
 
         static public void BallStartPosition(PictureBox ball)
         {
+            ball.Size = new Size(64, 64);
             ball.Location = new Point(40, 10);
         }
     }

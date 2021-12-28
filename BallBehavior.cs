@@ -34,7 +34,7 @@ namespace BallGame
                 Point reflrightCenter = new Point(reflright.Location.X + reflright.Width / 2, reflright.Location.Y + reflright.Height / 2);
                 if (ball.Bounds.IntersectsWith(reflright.Bounds))
                 {
-                    if (Math.Pow(ballCenter.X - reflrightCenter.X, 2) + Math.Pow(ballCenter.Y - reflrightCenter.Y, 1.5) <= Math.Pow((double)ball.Width * 2.5, 2))
+                    if (Math.Pow(ballCenter.X - reflrightCenter.X, 2) + Math.Pow(ballCenter.Y - reflrightCenter.Y, 2) <= Math.Pow((double)ball.Width*2, 2))
                         if (ballCenter.Y - reflrightCenter.Y > 0)
                         {
                             x = 0;
@@ -74,7 +74,7 @@ namespace BallGame
                 Point reflrightCenter = new Point(reflleft.Location.X + reflleft.Width / 2, reflleft.Location.Y + reflleft.Height / 2);
                 if (ball.Bounds.IntersectsWith(reflleft.Bounds))
                 {
-                    if (Math.Pow(ballCenter.X - reflrightCenter.X, 2) + Math.Pow(ballCenter.Y - reflrightCenter.Y, 2) <= Math.Pow((double)ball.Width * 1.5, 2))
+                    if (Math.Pow(ballCenter.X - reflrightCenter.X, 2) + Math.Pow(ballCenter.Y - reflrightCenter.Y, 2) <= Math.Pow((double)ball.Width*2, 2))
                         if (ballCenter.Y - reflrightCenter.Y > 0)
                         {
                             x = 0;

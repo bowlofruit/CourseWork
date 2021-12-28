@@ -115,8 +115,12 @@ namespace BallGame
         private void Reflector_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             Control c = sender as Control;
-           if(mouseEvents)
-            c.Dispose();
+            if (mouseEvents)
+            {
+                c.Location = new System.Drawing.Point(2000,1000);
+                c.Dispose();
+            }
+            
         }
 
         private void button_StartLevel(object sender, EventArgs e)

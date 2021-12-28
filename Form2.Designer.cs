@@ -82,7 +82,7 @@ namespace BallGame
             this.ball.BackColor = System.Drawing.Color.Transparent;
             this.ball.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ball.Image = ((System.Drawing.Image)(resources.GetObject("ball.Image")));
-            this.ball.Location = new System.Drawing.Point(179, 179);
+            this.ball.Location = new System.Drawing.Point(40, 10);
             this.ball.Name = "ball";
             this.ball.Size = new System.Drawing.Size(64, 64);
             this.ball.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
