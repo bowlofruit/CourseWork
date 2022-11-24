@@ -101,7 +101,7 @@ namespace BallGame
 
             if (ball.Bounds.IntersectsWith(endgame.Bounds))
             {
-                ball.Size = new Size(0, 0);
+                ball.Visible = false;
                 MessageBox.Show($"Level complete!");
             }
         }

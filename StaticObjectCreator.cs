@@ -104,7 +104,7 @@ namespace BallGame
 
         static public void BallStartPosition(PictureBox ball)
         {
-            ball.Size = new Size(64, 64);
+            ball.Visible = true;
             ball.Location = new Point(40, 10);
         }
     }
